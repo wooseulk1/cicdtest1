@@ -1,2 +1,3 @@
-FROM httpd
-ADD index.html /usr/lib/apache2/htdocs/index.html
+FROM nginx
+COPY index.html /usr/share/nginx/html
+
